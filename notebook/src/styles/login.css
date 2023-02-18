@@ -1,0 +1,54 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(#3f3f3f,#375078e0,rgb(92, 101, 109));
+    padding: 4rem;
+    border-radius: 20px 50px;
+    border: 2px solid #121212;
+    box-shadow: 20px 10px 10px gray;
+}
+
+.title{
+    margin-bottom: 3rem;
+    color: antiquewhite;
+    font-weight: bolder;
+
+}
+
+form input{
+    border: 2px solid black !important;
+    border-radius: 10px 20px !important;
+}
+
+form input:hover,form input:focus{
+    border: 2px solid rgb(101, 234, 220) !important;
+    border-radius:20px 10px  !important;
+}
+
+form label{
+    font-weight: bold;
+    color: rgb(245, 236, 225);
+}
+
+.btn{
+    margin: 0.3rem;
+    padding:0.3rem 0.8rem ;
+    background: linear-gradient(rgb(21, 43, 34),rgb(39, 51, 72));
+    border: 2px solid darkslategray;
+    border-radius: 10px 25px;
+    font-weight: bolder;
+    transition: 0.2s;
+    box-shadow: 10px 5px 5px gray;
+}
+
+.btn:hover{
+    margin: 0.3rem;
+    padding:0.3rem 0.8rem ;
+    background: linear-gradient(rgb(39, 51, 72),rgb(21, 43, 34));
+    border: 2px solid gray;
+    border-radius:25px 10px ;
+    font-weight: bolder;
+    transform:scale(1.1);
+  }
